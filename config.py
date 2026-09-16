@@ -63,6 +63,7 @@ APP_TO_BLOGGER_PAGE = {
     "duolingo": env("BLOGGER_PAGE_DUOLINGO"),
     "lark_player": env("BLOGGER_PAGE_LARK_PLAYER"),
     "nodevideo": env("BLOGGER_PAGE_NODEVIDEO"),
+    "capcut": env("BLOGGER_PAGE_CAPCUT"),
 }
 
 # The bot replaces hrefs whose URL contains one of these provider markers.
@@ -118,6 +119,7 @@ APP_ALIASES = {
     "duolingo": ("duolingo",),
     "lark_player": ("lark_player", "larkplayer", "lark player"),
     "nodevideo": ("nodevideo", "node video"),
+    "capcut": ("capcut",),
 }
 
 ONE_JOB_AT_A_TIME = True
