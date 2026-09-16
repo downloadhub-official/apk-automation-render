@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: apk-render-test
+    runtime: docker
+    plan: free
+    branch: main
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /health
+    autoDeploy: true

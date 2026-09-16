@@ -1,0 +1,13 @@
+.git
+.venv
+__pycache__
+*.pyc
+logs/*.log
+backups/*
+!backups/.gitkeep
+downloads
+*.apk
+config.local.py
+client_secret.json
+token.json
+.env

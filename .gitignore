@@ -1,0 +1,24 @@
+# Secrets / local credentials
+.env
+client_secret.json
+client_secret_*.json
+credentials.json
+token.json
+*.token
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+
+# Runtime logs and backups
+logs/*.log
+backups/*
+!backups/.gitkeep
+
+# Downloaded APKs
+*.apk
+
+# OS
+Thumbs.db
+.DS_Store
