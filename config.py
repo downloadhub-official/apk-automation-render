@@ -67,7 +67,7 @@ APP_TO_BLOGGER_PAGE = {
 
 # The bot replaces hrefs whose URL contains one of these provider markers.
 PROVIDER_URL_MARKERS = {
-    "gplinks": ("gplinks.com",),
+    "gplinks": ("gplinks.co",),
     "oii": ("oii.io",),
     "ouo": ("ouo.io",),
 }
@@ -86,8 +86,8 @@ def _csv_env(name: str, default: tuple[str, ...]) -> tuple[str, ...]:
 DIRECT_GITHUB_URL_MARKERS = _csv_env(
     "BLOGGER_DIRECT_GITHUB_MARKERS",
     (
-        f"https://github.com/{GITHUB_OWNER}/{GITHUB_REPO}/releases/download/",
-        f"https://github.com/{GITHUB_OWNER}/apk/releases/download/",
+        
+        f"https://github.com/{GITHUB_OWNER}/",
     ),
 )
 
